@@ -21,9 +21,8 @@ body {
     font-size: 1.6rem;
     background-image: url("img/Wave.svg");
     background-size: 100%;
-    background-position: center center;
     background-repeat: no-repeat;
-    color: var(--white-color);
+    max-width: max-content;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -54,4 +53,21 @@ h5{
 
 h6{
     font-size: 3.5rem;
+}
+
+.section{
+    min-width: 1440px;
+}
+
+.white-section{
+    background-color: white;
+}
+
+.conteudo{
+    margin: 100px 100px;
+    padding: 100px 100px;
+}
+
+.blue-section{
+    color: white;
 }
