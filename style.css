@@ -1,3 +1,8 @@
+:root {
+    --white-color: #fff;
+    --bg-color: #000;
+}
+
 * {
     margin: 0;
     padding: 0;  
@@ -7,20 +12,18 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
-:root {
-    -
-}
 
 html{
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
     background-image: url("img/Wave.svg");
     background-size: 100%;
-    /*background-position: center center;*/
+    background-position: center center;
     background-repeat: no-repeat;
+    color: var(--white-color);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -30,4 +33,25 @@ h1, h2, h3, h4, h5, h6{
 h1{
     font-size: 6rem;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 5.5rem;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 4.5rem;
+}
+
+h5{
+    font-size: 4rem;
+}
+
+h6{
+    font-size: 3.5rem;
 }
