@@ -90,6 +90,17 @@ h6{
     justify-content: space-between;
 }
 
+.github-section{
+    display: block;
+    text-align: center;
+}
+
+.github-section-buttons{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 /* .blue-section{
     color: white;
     display: flex;
@@ -114,8 +125,13 @@ h6{
   }
   
 #button-to-discord{
-    background-color: #7289da;
+    background-color: #7289da; 
 }
+.button-to-github{
+    background-color: #f5f5f5;
+    color: #1e2124;
+}
+
 
 header{
     display: flex;
