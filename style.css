@@ -62,7 +62,7 @@ h6{
 
 .section{
     /**/
-    min-height: 720px;
+    min-height: 1080px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -121,13 +121,12 @@ header{
     display: flex;
     background-color: #1e2124;
     align-items: center;
+    justify-self: center;
 }
 
 nav{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-self: center;
+    justify-self: space-around;
+    align-self: center;
 }
 
 .menu{
@@ -136,6 +135,14 @@ nav{
     flex-direction: row;
     justify-self: space-around;
     list-style-type: None;
+}
+
+.linkmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 1vw;
+    color: #fff;
 }
 ul{
     display: flex;
