@@ -101,24 +101,12 @@ h6{
     justify-items: center;
 }
 
-/* .blue-section{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color:#1e2124;
-    justify-content: space-around;
-    background-repeat: no-repeat;
-    background-size: 100%;    
-} */
-
 .button {
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -134,7 +122,6 @@ h6{
 #button-to-discord:hover{
     transition: 0.3s;
     background-color: #7282da;
-    /* transform: scale(1, 1.05); */
     border-radius: 1rem;
     box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.486); 
 }
@@ -155,34 +142,27 @@ h6{
 }
 
 header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 50px;
-    /* margin-top: 6vh; */
-    display: flex;
     background-color: #1e2124;
-    align-items: center;
-    justify-self: center;
     position: fixed;
     top: 0;
     opacity: 0.98;
-    flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-nav{
-    justify-self: space-around;
-    align-self: center;
-    flex-direction: row;
-    margin: auto;
-}
-
-.menu {
+.menu{
     background: #1e2124;
     color: rgb(255, 255, 255);
     display: flex;
-    justify-self: space-around;
-    align-self: center;
     flex-direction: row;
-    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 
 .linkmenu{
@@ -194,6 +174,8 @@ nav{
     color: #fff;
     transition: 0.3s;
     border-radius: 1rem;
+    font-family: 'Roboto Mono', monospace;
+
 }
 
 .linkmenu:hover{
