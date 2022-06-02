@@ -173,7 +173,7 @@ header{
     padding: 0 1vw;
     color: #fff;
     transition: 0.3s;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     font-family: 'Roboto Mono', monospace;
 
 }
@@ -184,8 +184,9 @@ header{
     flex-direction: row;
     justify-content: space-around;
     padding: 0 1vw;
-    color: rgb(134, 132, 132);
-    text-decoration: underline;
+    color: rgba(134, 132, 132, 0.733);
+    /* text-decoration: underline; */
+    font-size: 1.8rem;
     /* box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.486);  */
 }
 
