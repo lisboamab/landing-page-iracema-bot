@@ -152,7 +152,14 @@ nav{
     flex-direction: row;
     justify-self: space-around;
     list-style-type: None;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
+
+.menu a:hover {
+    background: #1e2124;
+    color: black;
+  }
 
 .linkmenu{
     display: flex;
