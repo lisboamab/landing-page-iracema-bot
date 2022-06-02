@@ -177,17 +177,12 @@ nav{
 
 .menu {
     background: #1e2124;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-self: space-around;
     align-self: center;
     flex-direction: row;
     margin: auto;
-  }
-
-.menu a:hover {
-    background: #1e2124;
-    color: black;
   }
 
 .linkmenu{
@@ -207,7 +202,7 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     padding: 0 1vw;
-    color: rgba(255, 255, 255, 0.856);
+    color: rgb(134, 132, 132);
     text-decoration: underline;
     /* box-shadow: 0px 0px 2px 1px rgba(255, 255, 255, 0.486);  */
 }
