@@ -165,23 +165,25 @@ header{
     position: fixed;
     top: 0;
     opacity: 0.98;
+    flex-direction: row;
 }
 
 nav{
     justify-self: space-around;
     align-self: center;
+    flex-direction: row;
     margin: auto;
 }
 
-.menu{
+.menu {
+    background: #1e2124;
+    color: black;
     display: flex;
-    align-items: center;
-    flex-direction: row;
     justify-self: space-around;
-    list-style-type: None;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-}
+    align-self: center;
+    flex-direction: row;
+    margin: auto;
+  }
 
 .menu a:hover {
     background: #1e2124;
